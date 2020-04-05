@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="icon" href="../../../../favicon.ico" />
+
+    <title>行政院原住民學生助學金管理系統</title>
+
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-drawer/1.0.6/css/bootstrap-drawer.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Custom styles for this template -->
+    <link href="css/dashboard.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+
+  <body class="has-drawer">
+    <div
+      id="drawerExample"
+      class="drawer dw-xs-10 dw-sm-6 dw-md-4 fold"
+      aria-labelledby="drawerExample"
+    >
+      <div class="drawer-controls">
+        <a
+          href="#drawerExample"
+          data-toggle="drawer"
+          aria-foldedopen="false"
+          aria-controls="drawerExample"
+          class="btn btn-primary btn-sm"
+          >Menu</a
+        >
+      </div>
+      <div class="drawer-contents">
+        <div class="drawer-heading">
+          <h2 class="drawer-title">Menu</h2>
+        </div>
+        <div class="drawer-body"></div>
+        <ul class="drawer-nav">
+          <li role="presentation"><a href="index.html">Home</a></li>
+          <li role="presentation" class="active">
+            <a href="#">設定網頁開放日期及初始值設定</a>
+          </li>
+          <li role="presentation"><a href="#">各縣市承辦人員資料維護</a></li>
+          <li role="presentation"><a href="#">各學校基本資料維護</a></li>
+          <li role="presentation"><a href="#">申請資料維護</a></li>
+          <li role="presentation">
+            <a href="#">連線網頁後台管理公告/問答資料維護</a>
+          </li>
+          <li role="presentation"><a href="#">各縣市申請學校列表</a></li>
+          <li role="presentation"><a href="#">學生人數統計彙整</a></li>
+          <li role="presentation"><a href="#">申請資料清單-通過,未通過</a></li>
+          <li role="presentation"><a href="#">家戶成員屬性報表</a></li>
+          <li role="presentation">
+            <a href="#">轉出文字格式TXT送財政部財稅中心</a>
+          </li>
+          <li role="presentation"><a href="#">學校誤按送件之取消作業</a></li>
+          <li role="presentation"><a href="#">複審不合格(可以補件)名冊 </a></li>
+          <li role="presentation">
+            <a href="#">轉入財稅中心回來的財產文字檔 TXT </a>
+          </li>
+          <li role="presentation"><a href="#">批次計算家戶人数</a></li>
+          <li role="presentation">
+            <a href="#">屬性不符查核及第二人申請有問題 </a>
+          </li>
+          <li role="presentation">
+            <a href="#">列印 + 匯入申請學生身份 2011.8.1 </a>
+          </li>
+          <li role="presentation"><a href="#">匯入上學年度的可信任名單</a></li>
+          <li role="presentation"><a href="#">核撥狀況統計</a></li>
+          <li role="presentation"><a href="#">資料庫備份作業</a></li>
+          <li role="presentation"><a href="#">權限設定及密碼修改</a></li>
+          <li role="presentation">
+            <a href="#">列印各學校套印地址條 2x 8 貼紙 </a>
+          </li>
+          <li role="presentation"><a href="#">好棒卡丘套印2012.3.15 </a></li>
+          <li role="presentation"><a href="#">比對db & a20140410. dbf</a></li>
+          <li role="presentation"><a href="#">身份證檢查碼偵測</a></li>
+          <li role="presentation">
+            <a href="#"
+              >將各學校已收到核撥助學金設定為尚未收到狀態,並同時計算那些學校尚未上來登錄以便縣市暨位查询
+              2015.9.14</a
+            >
+          </li>
+        </ul>
+        <div class="drawer-footer">
+          <small>&copy; Caroline Amaba</small>
+        </div>
+      </div>
+    </div>
+    <nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+      <ol class="breadcrumb" style="margin-left: 80px;">
+        <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+        <li class="breadcrumb-item">
+          <a href="page1.html">設定網頁開放日期及初始值設定</a>
+        </li>
+      </ol>
+
+      <ul class="navbar-nav px-3">
+        <li class="nav-item text-nowrap">
+          <a class="nav-link" href="#">Sign out</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="container-fluid">
+      <div class="row">
+        <main role="main" class="col-md-12 ml-sm-auto col-lg-12 px-4">
+          <div
+            class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom"
+          >
+            <h1 class="h4">設定網頁開放日期及初始值設定</h1>
+          </div>
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">First</th>
+                <th scope="col">Last</th>
+                <th scope="col">Handle</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Mark</td>
+                <td>Otto</td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
+        </main>
+      </div>
+    </div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>'
+        );
+    </script>
+    <script src="../../assets/js/vendor/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-drawer/1.0.6/js/drawer.min.js"></script>
+
+    <!-- Icons -->
+    <script src="https://unpkg.com/feather-icons/dist/feather.min.js"></script>
+    <script>
+      feather.replace();
+    </script>
+  </body>
+</html>
